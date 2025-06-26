@@ -1319,9 +1319,8 @@
                         <div class="form-group">
                             <textarea id="message" name="message" placeholder="Your Message"  required></textarea>
                         </div>
-                        <div class="form-group">
-                           <input type="checkbox" name="botcheck" />
-                        </div>
+                         <!-- Google reCAPTCHA -->
+  <div class="g-recaptcha" data-sitekey="6LcWtW4rAAAAAM873AEmTlF4pH09iJLT3IEfngUN"></div>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
@@ -1357,6 +1356,8 @@
     <div class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- JavaScript -->
     <script>
